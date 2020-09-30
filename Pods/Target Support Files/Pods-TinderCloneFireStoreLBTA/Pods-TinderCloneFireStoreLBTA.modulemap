@@ -1,0 +1,6 @@
+framework module Pods_TinderCloneFireStoreLBTA {
+  umbrella header "Pods-TinderCloneFireStoreLBTA-umbrella.h"
+
+  export *
+  module * { export * }
+}
