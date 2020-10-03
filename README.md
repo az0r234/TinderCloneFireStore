@@ -3,16 +3,16 @@
 
 
 
-# BMI Calculator App
+# Tinder Clone App
 
-BMI Calculator is a an IOS App that calculates your Body Mass Index (BMI), and it gives you feedback on it.
+Tinder Clone is a clone of the popular app Tinder. It is built using Firebase and implements Bindables to make the code more readable.
 
 
 ## Usage
 
-1. Input your height and weight using the slider
-1. Press Calculate
-1. Press Re-calculate if you need to adjust your height and weight.
+1. Register or Login from the front screen
+1. Start Swiping!
+1. Message anyone you match with
 
 
 ## Contributing
