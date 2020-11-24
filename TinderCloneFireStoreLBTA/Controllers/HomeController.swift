@@ -292,6 +292,7 @@ class HomeController: UIViewController, SettingsControllerDelegate, LoginControl
     func didRemoveCard(cardView: CardView) {
         self.topCardView?.removeFromSuperview()
         self.topCardView = self.topCardView?.nextCardView
+        print("test")
     }
     
     

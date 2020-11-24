@@ -23,6 +23,8 @@ class CustomTextField: UITextField {
         backgroundColor = .white
     }
     
+    
+    
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.insetBy(dx: padding, dy: 0)
     }

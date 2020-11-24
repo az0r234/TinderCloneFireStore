@@ -22,7 +22,7 @@ class AgeRangeCell: UITableViewCell {
         let slider = UISlider()
         slider.minimumValue = 18
         slider.maximumValue = 100
-        slider.isContinuous = true
+        slider.isContinuous = false
         return slider
     }()
     

@@ -34,7 +34,7 @@ class CardView: UIView {
     //replace it with a uipageviewcontroller component which is our swiping photos controller
     fileprivate let swipingPhotosController = SwipingPhotosController(isCardViewMode: true)
     fileprivate let gradientLayer = CAGradientLayer()
-    fileprivate let informationLabel = UILabel()
+    let informationLabel = UILabel()
     
     // Configurations
     fileprivate let threshold: CGFloat = 80
@@ -126,10 +126,6 @@ class CardView: UIView {
     fileprivate func handleEnded(gesture: UIPanGestureRecognizer) {
         let translationDirection: CGFloat = gesture.translation(in: nil).x > 0 ? 1 : -1
         let shouldDismissCard = abs(gesture.translation(in: nil).x) > threshold
-        
-        
-
-        
         
         if shouldDismissCard{
             //hack solution
